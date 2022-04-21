@@ -448,7 +448,7 @@ controller:
     ##
     appProtocol: true
 
-    annotations: {
+    annotations:
       kubernetes.io/ingress.class: cce
       kubernetes.io/elb.port: '80'
       kubernetes.io/elb.class: union
@@ -461,8 +461,7 @@ controller:
             "bandwidth_sharetype": "PER",
             "eip_type": "5_bgp",
             "name": "test-lb-kube"
-        }'    
-    }
+        }'
     labels: {}
     # clusterIP: ""
 
